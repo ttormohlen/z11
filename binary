@@ -1,0 +1,17 @@
+#supposed to convert input into binary. first def turns number into binary but it is reversed. Second one is supposed to put it in the right order.
+
+def integer_to_reverse_binary(integer_value):
+    while num > 0:
+        output = integer_value % 2
+        str1 += str(output)
+        integer_value = integer_value // 2
+        return str1
+def reverse_string(input_string):
+    while str1 > 0:
+        r = (str1 % 10)
+        reverse_string = (str1 * 10) + r
+    return reverse_string
+
+if __name__ == '__main__':
+    integer_value = int(input())
+    print(reverse_string)
